@@ -1,0 +1,57 @@
+
+
+
+.game
+{
+    width: 515px;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+span
+{
+    color: gold;
+}
+
+.title
+{
+    background-color: #f25;
+    padding: 5px 0px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.square
+{
+    width: 150px;
+    height: 150px;
+    background-color: #f25;
+    float: left;
+    margin: 8px;
+    font-size: 100px;
+
+}
+
+.square:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.winner
+{
+    background-color: gold;
+    color: red;
+}
+
+.disabedDiv {
+
+    pointer-events: none;
+  
+  }

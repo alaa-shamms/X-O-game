@@ -1,0 +1,32 @@
+
+@media screen and (max-width:500px) {
+  
+  
+    .game
+    {
+        width: 400px;
+        text-align: center;
+        margin: auto;
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+
+    .square
+    {
+        width: 100px;
+        height: 100px;
+        background-color: #f25;
+        float: left;
+        margin: 8px;
+        font-size: 65px;
+    
+    }
+    .winner
+{
+    background-color: gold;
+    color: red;
+}
+
+}
